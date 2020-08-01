@@ -1,0 +1,16 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testing Selenium</title>
+  </head>
+  <body>
+    <button id="alert" name="button-alert" class="alert-danger">
+      Hola mundo
+    </button>
+    <script>
+      const alertButton = document.getElementById("alert");
+      alertButton.addEventListener("click", () => alert("Una alerta uwu"));
+    </script>
+  </body>
+</html>
